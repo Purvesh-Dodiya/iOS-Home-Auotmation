@@ -3,13 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CAEBE16D30FC7345F6009ED /* Pods_Home_Automation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DBD9066B2883B65E6929868 /* Pods_Home_Automation_Tests.framework */; };
+		23F95B5A38DB13F9414FF92C /* Pods_Home_Automation__Home_Automation_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E31543C621BCCE9ABF70FF /* Pods_Home_Automation__Home_Automation_UITests.framework */; };
 		5D7388E0261AAB1B00C7A21A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7388DF261AAB1B00C7A21A /* AppDelegate.swift */; };
 		5D7388E2261AAB1B00C7A21A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7388E1261AAB1B00C7A21A /* SceneDelegate.swift */; };
-		5D7388E4261AAB1B00C7A21A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7388E3261AAB1B00C7A21A /* ViewController.swift */; };
+		5D7388E4261AAB1B00C7A21A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7388E3261AAB1B00C7A21A /* MainVC.swift */; };
 		5D7388E7261AAB1B00C7A21A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7388E5261AAB1B00C7A21A /* Main.storyboard */; };
 		5D7388E9261AAB1B00C7A21A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7388E8261AAB1B00C7A21A /* Assets.xcassets */; };
 		5D7388EC261AAB1B00C7A21A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7388EA261AAB1B00C7A21A /* LaunchScreen.storyboard */; };
@@ -19,6 +21,14 @@
 		5D73891D261AB69C00C7A21A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D73891C261AB69C00C7A21A /* LoginVC.swift */; };
 		5D738922261AB6CD00C7A21A /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D738921261AB6CD00C7A21A /* SignUpVC.swift */; };
 		5D73892B261AB82000C7A21A /* Declaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D73892A261AB82000C7A21A /* Declaration.swift */; };
+		5D738933261ABC7C00C7A21A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D738932261ABC7C00C7A21A /* GoogleService-Info.plist */; };
+		5D738964261AC27100C7A21A /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D738963261AC27100C7A21A /* CommonFunctions.swift */; };
+		5D73896C261ACD4300C7A21A /* HallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D73896B261ACD4300C7A21A /* HallVC.swift */; };
+		5D738971261ACD5100C7A21A /* RoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D738970261ACD5100C7A21A /* RoomVC.swift */; };
+		5D7BD581261B61CD008ABC90 /* HallListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BD580261B61CC008ABC90 /* HallListCell.swift */; };
+		5D862757261B5AE300DAE342 /* NavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D862756261B5AE300DAE342 /* NavigationVC.swift */; };
+		5D86275C261B5D1800DAE342 /* LoginNavigatiopnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86275B261B5D1800DAE342 /* LoginNavigatiopnVC.swift */; };
+		EEAA544010488FF6C834ADCB /* Pods_Home_Automation_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969539BA5A4C04454940577E /* Pods_Home_Automation_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02E31543C621BCCE9ABF70FF /* Pods_Home_Automation__Home_Automation_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Home_Automation__Home_Automation_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DBD9066B2883B65E6929868 /* Pods_Home_Automation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Home_Automation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		575E09CDA40D1A196B5FA823 /* Pods-Home Automation+.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Automation+.release.xcconfig"; path = "Target Support Files/Pods-Home Automation+/Pods-Home Automation+.release.xcconfig"; sourceTree = "<group>"; };
 		5D7388DC261AAB1B00C7A21A /* Home Automation+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Automation+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7388DF261AAB1B00C7A21A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D7388E1261AAB1B00C7A21A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5D7388E3261AAB1B00C7A21A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D7388E3261AAB1B00C7A21A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		5D7388E6261AAB1B00C7A21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D7388E8261AAB1B00C7A21A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D7388EB261AAB1B00C7A21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +70,19 @@
 		5D73891C261AB69C00C7A21A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		5D738921261AB6CD00C7A21A /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		5D73892A261AB82000C7A21A /* Declaration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Declaration.swift; sourceTree = "<group>"; };
+		5D738932261ABC7C00C7A21A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5D738963261AC27100C7A21A /* CommonFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
+		5D73896B261ACD4300C7A21A /* HallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallVC.swift; sourceTree = "<group>"; };
+		5D738970261ACD5100C7A21A /* RoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomVC.swift; sourceTree = "<group>"; };
+		5D7BD580261B61CC008ABC90 /* HallListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallListCell.swift; sourceTree = "<group>"; };
+		5D862756261B5AE300DAE342 /* NavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVC.swift; sourceTree = "<group>"; };
+		5D86275B261B5D1800DAE342 /* LoginNavigatiopnVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNavigatiopnVC.swift; sourceTree = "<group>"; };
+		6F06D77F5325AA24B5134AE8 /* Pods-Home Automation+Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Automation+Tests.debug.xcconfig"; path = "Target Support Files/Pods-Home Automation+Tests/Pods-Home Automation+Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		78EE262E2466B0598BC39F06 /* Pods-Home Automation+-Home Automation+UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Automation+-Home Automation+UITests.release.xcconfig"; path = "Target Support Files/Pods-Home Automation+-Home Automation+UITests/Pods-Home Automation+-Home Automation+UITests.release.xcconfig"; sourceTree = "<group>"; };
+		8CB63DFBA14392E524395F0A /* Pods-Home Automation+-Home Automation+UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Automation+-Home Automation+UITests.debug.xcconfig"; path = "Target Support Files/Pods-Home Automation+-Home Automation+UITests/Pods-Home Automation+-Home Automation+UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		969539BA5A4C04454940577E /* Pods_Home_Automation_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Home_Automation_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE2ACFA1E6FFA7DD183DE8B /* Pods-Home Automation+Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Automation+Tests.release.xcconfig"; path = "Target Support Files/Pods-Home Automation+Tests/Pods-Home Automation+Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E889954A0E9F4E39CF2A8B21 /* Pods-Home Automation+.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Automation+.debug.xcconfig"; path = "Target Support Files/Pods-Home Automation+/Pods-Home Automation+.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEAA544010488FF6C834ADCB /* Pods_Home_Automation_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CAEBE16D30FC7345F6009ED /* Pods_Home_Automation_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +106,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23F95B5A38DB13F9414FF92C /* Pods_Home_Automation__Home_Automation_UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		282FD1ADB80813E976FA1724 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				969539BA5A4C04454940577E /* Pods_Home_Automation_.framework */,
+				02E31543C621BCCE9ABF70FF /* Pods_Home_Automation__Home_Automation_UITests.framework */,
+				3DBD9066B2883B65E6929868 /* Pods_Home_Automation_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5D7388D3261AAB1B00C7A21A = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +130,8 @@
 				5D7388F5261AAB1C00C7A21A /* Home Automation+Tests */,
 				5D738900261AAB1C00C7A21A /* Home Automation+UITests */,
 				5D7388DD261AAB1B00C7A21A /* Products */,
+				EEAAA73144F7B18C2B6659E9 /* Pods */,
+				282FD1ADB80813E976FA1724 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +148,7 @@
 		5D7388DE261AAB1B00C7A21A /* Home Automation+ */ = {
 			isa = PBXGroup;
 			children = (
+				5D7BD57F261B61AB008ABC90 /* View */,
 				5D738929261AB80700C7A21A /* ConstantModules */,
 				5D738916261AAF2800C7A21A /* Storyboard */,
 				5D738915261AAF2000C7A21A /* ViewController */,
@@ -114,6 +156,7 @@
 				5D7388E1261AAB1B00C7A21A /* SceneDelegate.swift */,
 				5D7388E8261AAB1B00C7A21A /* Assets.xcassets */,
 				5D7388EA261AAB1B00C7A21A /* LaunchScreen.storyboard */,
+				5D738932261ABC7C00C7A21A /* GoogleService-Info.plist */,
 				5D7388ED261AAB1B00C7A21A /* Info.plist */,
 			);
 			path = "Home Automation+";
@@ -140,9 +183,13 @@
 		5D738915261AAF2000C7A21A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				5D7388E3261AAB1B00C7A21A /* ViewController.swift */,
+				5D7388E3261AAB1B00C7A21A /* MainVC.swift */,
 				5D73891C261AB69C00C7A21A /* LoginVC.swift */,
 				5D738921261AB6CD00C7A21A /* SignUpVC.swift */,
+				5D73896B261ACD4300C7A21A /* HallVC.swift */,
+				5D738970261ACD5100C7A21A /* RoomVC.swift */,
+				5D862756261B5AE300DAE342 /* NavigationVC.swift */,
+				5D86275B261B5D1800DAE342 /* LoginNavigatiopnVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -160,8 +207,30 @@
 			isa = PBXGroup;
 			children = (
 				5D73892A261AB82000C7A21A /* Declaration.swift */,
+				5D738963261AC27100C7A21A /* CommonFunctions.swift */,
 			);
 			path = ConstantModules;
+			sourceTree = "<group>";
+		};
+		5D7BD57F261B61AB008ABC90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D7BD580261B61CC008ABC90 /* HallListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEAAA73144F7B18C2B6659E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E889954A0E9F4E39CF2A8B21 /* Pods-Home Automation+.debug.xcconfig */,
+				575E09CDA40D1A196B5FA823 /* Pods-Home Automation+.release.xcconfig */,
+				8CB63DFBA14392E524395F0A /* Pods-Home Automation+-Home Automation+UITests.debug.xcconfig */,
+				78EE262E2466B0598BC39F06 /* Pods-Home Automation+-Home Automation+UITests.release.xcconfig */,
+				6F06D77F5325AA24B5134AE8 /* Pods-Home Automation+Tests.debug.xcconfig */,
+				DEE2ACFA1E6FFA7DD183DE8B /* Pods-Home Automation+Tests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D738906261AAB1C00C7A21A /* Build configuration list for PBXNativeTarget "Home Automation+" */;
 			buildPhases = (
+				7109B90C0AA363192CE67EF6 /* [CP] Check Pods Manifest.lock */,
 				5D7388D8261AAB1B00C7A21A /* Sources */,
 				5D7388D9261AAB1B00C7A21A /* Frameworks */,
 				5D7388DA261AAB1B00C7A21A /* Resources */,
+				CBE737802762719E2939B148 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,6 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D738909261AAB1C00C7A21A /* Build configuration list for PBXNativeTarget "Home Automation+Tests" */;
 			buildPhases = (
+				1D15EB3C8AFCB489AB549962 /* [CP] Check Pods Manifest.lock */,
 				5D7388EE261AAB1C00C7A21A /* Sources */,
 				5D7388EF261AAB1C00C7A21A /* Frameworks */,
 				5D7388F0261AAB1C00C7A21A /* Resources */,
@@ -206,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D73890C261AAB1C00C7A21A /* Build configuration list for PBXNativeTarget "Home Automation+UITests" */;
 			buildPhases = (
+				88960AF6282BB5A135CF758C /* [CP] Check Pods Manifest.lock */,
 				5D7388F9261AAB1C00C7A21A /* Sources */,
 				5D7388FA261AAB1C00C7A21A /* Frameworks */,
 				5D7388FB261AAB1C00C7A21A /* Resources */,
+				8FF3DBC6804344C7D5F5B89C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -269,6 +343,7 @@
 			files = (
 				5D738918261AAF4D00C7A21A /* Auth.storyboard in Resources */,
 				5D7388EC261AAB1B00C7A21A /* LaunchScreen.storyboard in Resources */,
+				5D738933261ABC7C00C7A21A /* GoogleService-Info.plist in Resources */,
 				5D7388E9261AAB1B00C7A21A /* Assets.xcassets in Resources */,
 				5D7388E7261AAB1B00C7A21A /* Main.storyboard in Resources */,
 			);
@@ -290,13 +365,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D15EB3C8AFCB489AB549962 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Home Automation+Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7109B90C0AA363192CE67EF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Home Automation+-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88960AF6282BB5A135CF758C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Home Automation+-Home Automation+UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FF3DBC6804344C7D5F5B89C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Home Automation+-Home Automation+UITests/Pods-Home Automation+-Home Automation+UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Home Automation+-Home Automation+UITests/Pods-Home Automation+-Home Automation+UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Home Automation+-Home Automation+UITests/Pods-Home Automation+-Home Automation+UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBE737802762719E2939B148 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Home Automation+/Pods-Home Automation+-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Home Automation+/Pods-Home Automation+-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Home Automation+/Pods-Home Automation+-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D7388D8261AAB1B00C7A21A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D7388E4261AAB1B00C7A21A /* ViewController.swift in Sources */,
+				5D7388E4261AAB1B00C7A21A /* MainVC.swift in Sources */,
+				5D738971261ACD5100C7A21A /* RoomVC.swift in Sources */,
+				5D73896C261ACD4300C7A21A /* HallVC.swift in Sources */,
 				5D7388E0261AAB1B00C7A21A /* AppDelegate.swift in Sources */,
+				5D862757261B5AE300DAE342 /* NavigationVC.swift in Sources */,
+				5D86275C261B5D1800DAE342 /* LoginNavigatiopnVC.swift in Sources */,
+				5D7BD581261B61CD008ABC90 /* HallListCell.swift in Sources */,
+				5D738964261AC27100C7A21A /* CommonFunctions.swift in Sources */,
 				5D73892B261AB82000C7A21A /* Declaration.swift in Sources */,
 				5D73891D261AB69C00C7A21A /* LoginVC.swift in Sources */,
 				5D738922261AB6CD00C7A21A /* SignUpVC.swift in Sources */,
@@ -473,6 +657,7 @@
 		};
 		5D738907261AAB1C00C7A21A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E889954A0E9F4E39CF2A8B21 /* Pods-Home Automation+.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,6 +676,7 @@
 		};
 		5D738908261AAB1C00C7A21A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 575E09CDA40D1A196B5FA823 /* Pods-Home Automation+.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -509,6 +695,7 @@
 		};
 		5D73890A261AAB1C00C7A21A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F06D77F5325AA24B5134AE8 /* Pods-Home Automation+Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +717,7 @@
 		};
 		5D73890B261AAB1C00C7A21A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE2ACFA1E6FFA7DD183DE8B /* Pods-Home Automation+Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -551,6 +739,7 @@
 		};
 		5D73890D261AAB1C00C7A21A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CB63DFBA14392E524395F0A /* Pods-Home Automation+-Home Automation+UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -570,6 +759,7 @@
 		};
 		5D73890E261AAB1C00C7A21A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78EE262E2466B0598BC39F06 /* Pods-Home Automation+-Home Automation+UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
