@@ -9,6 +9,7 @@ target 'Home Automation+' do
 pod 'Firebase/Analytics'
 pod 'Firebase/Auth'
 pod 'Firebase/Firestore'
+pod 'Firebase/Database'
   target 'Home Automation+Tests' do
     inherit! :search_paths
     # Pods for testing

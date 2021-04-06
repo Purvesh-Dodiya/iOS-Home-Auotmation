@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1CAEBE16D30FC7345F6009ED /* Pods_Home_Automation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DBD9066B2883B65E6929868 /* Pods_Home_Automation_Tests.framework */; };
 		23F95B5A38DB13F9414FF92C /* Pods_Home_Automation__Home_Automation_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E31543C621BCCE9ABF70FF /* Pods_Home_Automation__Home_Automation_UITests.framework */; };
+		5D6490B3261C147F00E8F114 /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6490B2261C147F00E8F114 /* Structure.swift */; };
+		5D6490B9261C2A4F00E8F114 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6490B8261C2A4F00E8F114 /* UIImage+Extension.swift */; };
 		5D7388E0261AAB1B00C7A21A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7388DF261AAB1B00C7A21A /* AppDelegate.swift */; };
 		5D7388E2261AAB1B00C7A21A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7388E1261AAB1B00C7A21A /* SceneDelegate.swift */; };
 		5D7388E4261AAB1B00C7A21A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7388E3261AAB1B00C7A21A /* MainVC.swift */; };
@@ -25,9 +27,11 @@
 		5D738964261AC27100C7A21A /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D738963261AC27100C7A21A /* CommonFunctions.swift */; };
 		5D73896C261ACD4300C7A21A /* HallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D73896B261ACD4300C7A21A /* HallVC.swift */; };
 		5D738971261ACD5100C7A21A /* RoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D738970261ACD5100C7A21A /* RoomVC.swift */; };
-		5D7BD581261B61CD008ABC90 /* HallListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BD580261B61CC008ABC90 /* HallListCell.swift */; };
 		5D862757261B5AE300DAE342 /* NavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D862756261B5AE300DAE342 /* NavigationVC.swift */; };
 		5D86275C261B5D1800DAE342 /* LoginNavigatiopnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86275B261B5D1800DAE342 /* LoginNavigatiopnVC.swift */; };
+		5D99CBC1261BFFD900F2906F /* HallListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99CBBF261BFFD900F2906F /* HallListCell.swift */; };
+		5D99CBC2261BFFD900F2906F /* HallListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D99CBC0261BFFD900F2906F /* HallListCell.xib */; };
+		5D99CBC8261C041E00F2906F /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99CBC7261C041E00F2906F /* CustomUIView.swift */; };
 		EEAA544010488FF6C834ADCB /* Pods_Home_Automation_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969539BA5A4C04454940577E /* Pods_Home_Automation_.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +56,8 @@
 		02E31543C621BCCE9ABF70FF /* Pods_Home_Automation__Home_Automation_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Home_Automation__Home_Automation_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DBD9066B2883B65E6929868 /* Pods_Home_Automation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Home_Automation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		575E09CDA40D1A196B5FA823 /* Pods-Home Automation+.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Automation+.release.xcconfig"; path = "Target Support Files/Pods-Home Automation+/Pods-Home Automation+.release.xcconfig"; sourceTree = "<group>"; };
+		5D6490B2261C147F00E8F114 /* Structure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structure.swift; sourceTree = "<group>"; };
+		5D6490B8261C2A4F00E8F114 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		5D7388DC261AAB1B00C7A21A /* Home Automation+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Automation+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7388DF261AAB1B00C7A21A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D7388E1261AAB1B00C7A21A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,9 +80,11 @@
 		5D738963261AC27100C7A21A /* CommonFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
 		5D73896B261ACD4300C7A21A /* HallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallVC.swift; sourceTree = "<group>"; };
 		5D738970261ACD5100C7A21A /* RoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomVC.swift; sourceTree = "<group>"; };
-		5D7BD580261B61CC008ABC90 /* HallListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallListCell.swift; sourceTree = "<group>"; };
 		5D862756261B5AE300DAE342 /* NavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVC.swift; sourceTree = "<group>"; };
 		5D86275B261B5D1800DAE342 /* LoginNavigatiopnVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNavigatiopnVC.swift; sourceTree = "<group>"; };
+		5D99CBBF261BFFD900F2906F /* HallListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallListCell.swift; sourceTree = "<group>"; };
+		5D99CBC0261BFFD900F2906F /* HallListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HallListCell.xib; sourceTree = "<group>"; };
+		5D99CBC7261C041E00F2906F /* CustomUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
 		6F06D77F5325AA24B5134AE8 /* Pods-Home Automation+Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Automation+Tests.debug.xcconfig"; path = "Target Support Files/Pods-Home Automation+Tests/Pods-Home Automation+Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		78EE262E2466B0598BC39F06 /* Pods-Home Automation+-Home Automation+UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Automation+-Home Automation+UITests.release.xcconfig"; path = "Target Support Files/Pods-Home Automation+-Home Automation+UITests/Pods-Home Automation+-Home Automation+UITests.release.xcconfig"; sourceTree = "<group>"; };
 		8CB63DFBA14392E524395F0A /* Pods-Home Automation+-Home Automation+UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Automation+-Home Automation+UITests.debug.xcconfig"; path = "Target Support Files/Pods-Home Automation+-Home Automation+UITests/Pods-Home Automation+-Home Automation+UITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +131,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5D6490B7261C2A3200E8F114 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5D6490B8261C2A4F00E8F114 /* UIImage+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		5D7388D3261AAB1B00C7A21A = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +164,8 @@
 		5D7388DE261AAB1B00C7A21A /* Home Automation+ */ = {
 			isa = PBXGroup;
 			children = (
+				5D6490B7261C2A3200E8F114 /* Extension */,
+				5D99CBC6261C03EE00F2906F /* CustomClass */,
 				5D7BD57F261B61AB008ABC90 /* View */,
 				5D738929261AB80700C7A21A /* ConstantModules */,
 				5D738916261AAF2800C7A21A /* Storyboard */,
@@ -208,6 +226,7 @@
 			children = (
 				5D73892A261AB82000C7A21A /* Declaration.swift */,
 				5D738963261AC27100C7A21A /* CommonFunctions.swift */,
+				5D6490B2261C147F00E8F114 /* Structure.swift */,
 			);
 			path = ConstantModules;
 			sourceTree = "<group>";
@@ -215,9 +234,18 @@
 		5D7BD57F261B61AB008ABC90 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5D7BD580261B61CC008ABC90 /* HallListCell.swift */,
+				5D99CBBF261BFFD900F2906F /* HallListCell.swift */,
+				5D99CBC0261BFFD900F2906F /* HallListCell.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		5D99CBC6261C03EE00F2906F /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				5D99CBC7261C041E00F2906F /* CustomUIView.swift */,
+			);
+			path = CustomClass;
 			sourceTree = "<group>";
 		};
 		EEAAA73144F7B18C2B6659E9 /* Pods */ = {
@@ -341,6 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D99CBC2261BFFD900F2906F /* HallListCell.xib in Resources */,
 				5D738918261AAF4D00C7A21A /* Auth.storyboard in Resources */,
 				5D7388EC261AAB1B00C7A21A /* LaunchScreen.storyboard in Resources */,
 				5D738933261ABC7C00C7A21A /* GoogleService-Info.plist in Resources */,
@@ -478,11 +507,14 @@
 				5D73896C261ACD4300C7A21A /* HallVC.swift in Sources */,
 				5D7388E0261AAB1B00C7A21A /* AppDelegate.swift in Sources */,
 				5D862757261B5AE300DAE342 /* NavigationVC.swift in Sources */,
+				5D6490B3261C147F00E8F114 /* Structure.swift in Sources */,
+				5D99CBC8261C041E00F2906F /* CustomUIView.swift in Sources */,
 				5D86275C261B5D1800DAE342 /* LoginNavigatiopnVC.swift in Sources */,
-				5D7BD581261B61CD008ABC90 /* HallListCell.swift in Sources */,
+				5D99CBC1261BFFD900F2906F /* HallListCell.swift in Sources */,
 				5D738964261AC27100C7A21A /* CommonFunctions.swift in Sources */,
 				5D73892B261AB82000C7A21A /* Declaration.swift in Sources */,
 				5D73891D261AB69C00C7A21A /* LoginVC.swift in Sources */,
+				5D6490B9261C2A4F00E8F114 /* UIImage+Extension.swift in Sources */,
 				5D738922261AB6CD00C7A21A /* SignUpVC.swift in Sources */,
 				5D7388E2261AAB1B00C7A21A /* SceneDelegate.swift in Sources */,
 			);

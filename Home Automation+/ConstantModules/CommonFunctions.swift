@@ -17,6 +17,21 @@ func alertDialog(message: String,self: UIViewController) {
     
 }
 
+//Getting Image data form url
+func getImageData(from url: URL, completion: @escaping (Data?, URLResponse?, Error?) -> ()) {
+    URLSession.shared.dataTask(with: url, completionHandler: completion).resume()
+}
+
+//Loading image from URL
+func loadImage(url: URL, imageOutlet: UIImageView) {
+    getImageData(from: url) { data, response, error in
+        guard let data = data, error == nil else { return }
+        DispatchQueue.main.async() {
+            imageOutlet.image = UIImage(data: data)
+        }
+    }
+}
+
 func getErrorMessage(of errorCode: AuthErrorCode) -> String {
     
     switch errorCode {

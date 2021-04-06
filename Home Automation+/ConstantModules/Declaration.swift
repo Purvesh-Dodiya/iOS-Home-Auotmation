@@ -11,13 +11,15 @@ import Foundation
 let stbAuth = "Auth"
 let stbMain = "Main"
 
-
 //MARK:- ViewController
 let vcLogin = "LoginVC"
 let vcSignUp = "SignUpVC"
 let navigationVC = "NavigationVC"
 let vcMain = "MainVC"
 let vcLoginNavigation = "LoginNavigatiopnVC"
+
+//MARk:- NIb
+let hallCell = "HallListCell"
 
 //MARK:- Commons Modules
 let errorOpps = "Opps"
@@ -27,3 +29,6 @@ let messageOK = "Ok"
 let appName = "Home Automation+"
 let logoutLable = "Logout"
 
+//MARK:- HallVC
+let singleRow = 1
+let cellIndetifire = "cell"

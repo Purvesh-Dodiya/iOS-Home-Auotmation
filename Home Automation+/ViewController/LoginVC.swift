@@ -21,13 +21,19 @@ class LoginVC: UIViewController {
         super.viewDidLoad()
         self.title = appName
         self.activityIndicator.isHidden = true
+        if Auth.auth().currentUser != nil {
+            guard let signUpVC = UIStoryboard(name: stbMain, bundle: nil).instantiateViewController(withIdentifier: navigationVC) as? NavigationVC else {
+                return
+            }
+            UIApplication.shared.windows.first?.rootViewController =   signUpVC
+            
+        }
         Auth.auth().addStateDidChangeListener() { auth, user in
             if user != nil {
                 guard let signUpVC = UIStoryboard(name: stbMain, bundle: nil).instantiateViewController(withIdentifier: navigationVC) as? NavigationVC else {
                     return
                 }
                 UIApplication.shared.windows.first?.rootViewController =   signUpVC
-                
                 
             }
         }
