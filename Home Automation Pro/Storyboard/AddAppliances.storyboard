@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vPq-Tk-kuL">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="g9N-Wo-eGL">
+            <objects>
+                <navigationController id="vPq-Tk-kuL" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Mai-tN-Xdl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="nJq-kG-h6U" kind="relationship" relationship="rootViewController" id="602-RA-012"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cm8-NC-hBX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-794" y="13"/>
+        </scene>
+        <!--Add AppliancesVC-->
+        <scene sceneID="3ZT-pL-3MF">
+            <objects>
+                <viewController storyboardIdentifier="AddAppliancesVC" id="nJq-kG-h6U" customClass="AddAppliancesVC" customModule="Home_Automation_Pro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kxy-5w-Jgl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Apliances" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OK2-bu-a2B">
+                                <rect key="frame" x="50" y="144" width="314" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LGE-17-nj4">
+                                <rect key="frame" x="20" y="260" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Where to add?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kJM-V9-KQM">
+                                <rect key="frame" x="20" y="314" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Appliances" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jBk-iQ-Zn0">
+                                <rect key="frame" x="20" y="368" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fuq-Lg-T02">
+                                <rect key="frame" x="20" y="422" width="374" height="37"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="7" maxX="0.0" maxY="8"/>
+                                <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
+                                <state key="normal" title="Add Appliances" image="plus" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onClickOfAdd:" destination="nJq-kG-h6U" eventType="touchUpInside" id="N1J-7E-LC0"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kds-fE-NcB">
+                                <rect key="frame" x="10" y="510" width="394" height="216"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Appliances Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W9d-Rl-ekx">
+                                <rect key="frame" x="20" y="219" width="133" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Go0-Vc-k4L"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kJM-V9-KQM" firstAttribute="leading" secondItem="Go0-Vc-k4L" secondAttribute="leading" constant="20" id="2ef-W5-Y34"/>
+                            <constraint firstItem="Go0-Vc-k4L" firstAttribute="trailing" secondItem="LGE-17-nj4" secondAttribute="trailing" constant="20" id="3Nl-Zy-4Gb"/>
+                            <constraint firstItem="Go0-Vc-k4L" firstAttribute="trailing" secondItem="kJM-V9-KQM" secondAttribute="trailing" constant="20" id="7AW-4k-lJZ"/>
+                            <constraint firstItem="Go0-Vc-k4L" firstAttribute="trailing" secondItem="Kds-fE-NcB" secondAttribute="trailing" constant="10" id="Avg-CL-QQf"/>
+                            <constraint firstItem="OK2-bu-a2B" firstAttribute="leading" secondItem="Go0-Vc-k4L" secondAttribute="leading" constant="50" id="CjN-6K-Ak5"/>
+                            <constraint firstItem="W9d-Rl-ekx" firstAttribute="top" secondItem="OK2-bu-a2B" secondAttribute="bottom" constant="45" id="DKQ-wC-GU1"/>
+                            <constraint firstItem="fuq-Lg-T02" firstAttribute="top" secondItem="jBk-iQ-Zn0" secondAttribute="bottom" constant="20" id="EEj-P8-gzu"/>
+                            <constraint firstItem="jBk-iQ-Zn0" firstAttribute="leading" secondItem="Go0-Vc-k4L" secondAttribute="leading" constant="20" id="FkM-Hh-lq7"/>
+                            <constraint firstItem="W9d-Rl-ekx" firstAttribute="leading" secondItem="Go0-Vc-k4L" secondAttribute="leading" constant="20" id="LJH-0E-M5w"/>
+                            <constraint firstItem="jBk-iQ-Zn0" firstAttribute="top" secondItem="kJM-V9-KQM" secondAttribute="bottom" constant="20" id="NqW-gV-X5Q"/>
+                            <constraint firstItem="Go0-Vc-k4L" firstAttribute="trailing" secondItem="jBk-iQ-Zn0" secondAttribute="trailing" constant="20" id="StS-jI-lFO"/>
+                            <constraint firstItem="Go0-Vc-k4L" firstAttribute="bottom" secondItem="Kds-fE-NcB" secondAttribute="bottom" constant="10" id="Tsd-uL-sT7"/>
+                            <constraint firstItem="LGE-17-nj4" firstAttribute="leading" secondItem="Go0-Vc-k4L" secondAttribute="leading" constant="20" id="cFL-iX-ssL"/>
+                            <constraint firstItem="Go0-Vc-k4L" firstAttribute="trailing" secondItem="OK2-bu-a2B" secondAttribute="trailing" constant="50" id="fDj-ae-HP0"/>
+                            <constraint firstItem="Go0-Vc-k4L" firstAttribute="trailing" secondItem="fuq-Lg-T02" secondAttribute="trailing" constant="20" id="jTb-N4-ep0"/>
+                            <constraint firstItem="kJM-V9-KQM" firstAttribute="top" secondItem="LGE-17-nj4" secondAttribute="bottom" constant="20" id="krG-Sv-LRf"/>
+                            <constraint firstItem="OK2-bu-a2B" firstAttribute="top" secondItem="Go0-Vc-k4L" secondAttribute="top" constant="100" id="mVe-3K-maP"/>
+                            <constraint firstItem="Kds-fE-NcB" firstAttribute="leading" secondItem="kxy-5w-Jgl" secondAttribute="leading" constant="10" id="tec-0X-EbQ"/>
+                            <constraint firstItem="fuq-Lg-T02" firstAttribute="leading" secondItem="Go0-Vc-k4L" secondAttribute="leading" constant="20" id="uUt-1d-MTO"/>
+                            <constraint firstItem="LGE-17-nj4" firstAttribute="top" secondItem="W9d-Rl-ekx" secondAttribute="bottom" constant="20" id="ygo-yH-E9O"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Kds-fE-NcB"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="lf8-cu-fS9"/>
+                    <connections>
+                        <outlet property="itemPickerView" destination="Kds-fE-NcB" id="Tjv-2d-0pR"/>
+                        <outlet property="txtAppliances" destination="jBk-iQ-Zn0" id="Dmh-ZK-dDE"/>
+                        <outlet property="txtName" destination="LGE-17-nj4" id="sTK-gk-Tok"/>
+                        <outlet property="txtPrimices" destination="kJM-V9-KQM" id="bRV-9I-7Ao"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NYD-0S-bXl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="90" y="93"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
