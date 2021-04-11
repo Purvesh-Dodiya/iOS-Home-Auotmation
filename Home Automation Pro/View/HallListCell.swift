@@ -35,6 +35,7 @@ class HallListCell: UITableViewCell {
 //Configure cell
 extension HallListCell {
     func configure(list: DataModel) {
+        
         keyPrimices = list.keyPrimices
         keyAppliances = list.keyAppliances
         lblAppliancesName.text = list.name

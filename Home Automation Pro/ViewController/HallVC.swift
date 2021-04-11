@@ -88,11 +88,11 @@ extension HallVC {
                 return
             }
             self.list.append(DataModel(name: name, img: img, status: status,keyPrimices: "HALL",keyAppliances: snapshot.key))
-            DispatchQueue.main.async {
+       
                 self.tblListOfHallAppliances.reloadData()
                 self.tblListOfHallAppliances.isHidden = false
                 self.activityIndicator.isHidden = true
-            }
+            
             
         })
     }

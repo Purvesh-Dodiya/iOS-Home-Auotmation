@@ -35,8 +35,8 @@ let cellIndetifire = "cell"
 
 
 //Variables
-let primicesArray = ["HALL","ROOM","KITCHEN"]
-let appliancesArray = ["LIGHT","FAN","AC","TV"]
+let primicesArray = ["Select Location","HALL","ROOM","KITCHEN"]
+let appliancesArray = ["Select Appliances","LIGHT","FAN","AC","TV"]
 let acImg = "https://firebasestorage.googleapis.com/v0/b/home-iot-876c0.appspot.com/o/ac_on.png?alt=media"
 let tvImg = "https://firebasestorage.googleapis.com/v0/b/home-iot-876c0.appspot.com/o/tv-screen.png?alt=media"
 let lightImg = "https://firebasestorage.googleapis.com/v0/b/home-iot-876c0.appspot.com/o/bulb_on.png?alt=media"
